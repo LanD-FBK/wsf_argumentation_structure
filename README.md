@@ -7,7 +7,7 @@ This dataset comprises 227 annotated examples from the White Supremacy Forum dat
 The dataset comprises the annotations of 200 examples from the WSF dataset, plus 27 examples modified with respect to the original to obtain a more balanced distribution (e.g. more examples where the weak part is not identical to the hateful part).
 
 ## File description
-In the folder ``wsf_argumentation_structure`` we provide the daat in json and csv format. Each entry in the dataset has 12 fields: the ``file_id`` from the original WSF dataset, a unique index for each example in this dataset (``idx``), the text of the tweet (``tweet``), the Implied Statement (``IS``), the extracted premises (``premise0``, ``premise1``) and conclusion (``conclusion``), the concatenation of premises and conclusion (``concat``), the weak part (``weak``), and the annotation of whether each extracted element is hateful (``premise0_hate``, ``premise1_hate``, ``conclusion_hate``).
+Data will be uploaded soon!
 
 ## Citation
 Further details can be found in our paper (to appear in Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing):

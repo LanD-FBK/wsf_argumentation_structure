@@ -1,5 +1,5 @@
 # WSF argumentative structure annotation
-This dataset comprises 227 annotated examples from the White Supremacy Forum dataset (WSF, de Gibert et al., 2018), obtained via human-machine collaboration.
+This dataset comprises 227 annotated examples from the [White Supremacy Forum dataset](https://github.com/Vicomtech/hate-speech-dataset/tree/master) (WSF, de Gibert et al., 2018), obtained via human-machine collaboration.
 
 ![alt text](https://github.com/LanD-FBK/wsf_argumentation_structure/blob/main/example_wsf_arg.png)
 
@@ -7,7 +7,7 @@ This dataset comprises 227 annotated examples from the White Supremacy Forum dat
 The dataset comprises the annotations of 200 examples from the WSF dataset, plus 27 examples modified with respect to the original to obtain a more balanced distribution (e.g. more examples where the weak part is not identical to the hateful part).
 
 ## File description
-Data will be uploaded soon!
+We provide the data in json and csv format. Each entry in the dataset has 12 fields: the ``file_id`` from the original WSF dataset, a unique index for each example in this dataset (``idx``), the text of the posts, which in some cases was edited from the original as explained in the paper (``text_ed``), the Implied Statement (``IS``), the extracted premises (``premise0``, ``premise1``, ``premise2``) and conclusion (``conclusion``), the concatenation of premises and conclusion (``concat``), the weak part (``weak``), and the annotation of whether each extracted element is hateful (``premise0_hate``, ``premise1_hate``, ``premise2_hate``, ``conclusion_hate``).
 
 ## Citation
 Further details can be found in our paper (to appear in Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing):
@@ -26,7 +26,8 @@ Helena Bonaldi, Greta Damo, Nicolás Benjamín Ocampo, Elena Cabrio, Serena Vill
     booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2024",
-    publisher = "Association for Computational Linguistics"
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/pdf/2410.03466"
 }
 
 ```

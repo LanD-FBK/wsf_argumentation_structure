@@ -15,19 +15,26 @@ Further details can be found in our paper (to appear in Proceedings of the 2024 
 Helena Bonaldi, Greta Damo, Nicolás Benjamín Ocampo, Elena Cabrio, Serena Villata and Marco Guerini. 2024. Is Safer Better? The Impact of Guardrails on the Argumentative Strength of LLMs in Hate Speech Countering. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024.
 
 ```
-@inproceedings{bonaldi-etal-2024-is,
-    title = "Is Safer Better? The Impact of Guardrails on the Argumentative Strength of LLMs in Hate Speech Countering.",
+@inproceedings{bonaldi-etal-2024-safer,
+    title = "Is Safer Better? The Impact of Guardrails on the Argumentative Strength of {LLM}s in Hate Speech Countering",
     author = "Bonaldi, Helena  and
-      Damo,Greta  and
-      Ocampo, Nicolás Benjamín and
-    Cabrio, Elena and
-    Villata, Serena and
+      Damo, Greta  and
+      Ocampo, Nicol{\'a}s Benjam{\'\i}n  and
+      Cabrio, Elena  and
+      Villata, Serena  and
       Guerini, Marco",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
     booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2024",
+    address = "Miami, Florida, USA",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/pdf/2410.03466"
+    url = "https://aclanthology.org/2024.emnlp-main.201",
+    doi = "10.18653/v1/2024.emnlp-main.201",
+    pages = "3446--3463"
 }
+
 
 ```
